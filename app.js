@@ -27,13 +27,13 @@ app.use(formidableMiddleware({
   uploadDir: './public/model',
   // keepExtensions: true,
   // type: true
-},{
+},[{
   event: 'file',
   action: function (req, res, next, field, file) { 
     filename = file.name;
     fs.rename(file.path, path.join( './public/model', file.name.replace(" ","-")));
   }
-}))
+}]))
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
