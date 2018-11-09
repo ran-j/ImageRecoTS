@@ -19,4 +19,4 @@ $ npm start bin/www
 
 Them access http://localhost:8080/predict
 
-<img width="700" src="public/img/print1.PNG" alt="Vue logo"></a>
+<p align="center"><img width="700" src="public/img/print1.PNG" alt="Vue logo"></a></p>
